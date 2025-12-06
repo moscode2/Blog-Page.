@@ -10,9 +10,8 @@ const About = () => {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    name: "About – MONEY LAWS AND FINANCIAL GROWTH",
-    description:
-      "About the finance blogger behind MONEY LAWS AND FINANCIAL GROWTH.",
+    "name": "About – MONEY LAWS AND FINANCIAL GROWTH",
+    "description": "About the finance blogger behind MONEY LAWS AND FINANCIAL GROWTH."
   };
 
   return (
@@ -30,6 +29,7 @@ const About = () => {
       </Helmet>
 
       <section className="container mx-auto grid items-center gap-10 py-16 md:grid-cols-2">
+        {/* Image Section */}
         <div>
           <img
             src={flowerImage}
@@ -38,6 +38,7 @@ const About = () => {
           />
         </div>
 
+        {/* Content Section */}
         <article>
           <h1 className="text-4xl font-extrabold">
             Hi, I’m your guide to Budget briefs and tax policy talks
@@ -46,17 +47,16 @@ const About = () => {
           <p className="mt-4 text-muted-foreground">
             Tax Consultants and Researchers with experience in tax and
             business advisory, focusing on the analysis of government
-            legislative changes, Treasury policies, and emerging
-            economic proposals. Our work provides clear, timely, and
-            well-researched insights into Kenya's fiscal landscape while
-            connecting these developments in the provisions and Tax Laws
-            to global economic trends. We simplify complex policy shifts
-            and offer practical perspectives that support informed
-            decision-making for individuals, businesses, and
-            institutions. Through a blend of technical expertise and
-            analytical research, we deliver commentary that helps
-            individuals and companies understand the issues shaping both
-            local and international economies.
+            legislative changes, Treasury policies, and emerging economic
+            proposals. Our work provides clear, timely, and well-researched
+            insights into Kenya's fiscal landscape while connecting these
+            developments in the provisions and Tax Laws to global economic
+            trends. We simplify complex policy shifts and offer practical
+            perspectives that support informed decision-making for
+            individuals, businesses, and institutions. Through a blend of
+            technical expertise and analytical research, we deliver
+            commentary that helps individuals and companies understand the
+            issues shaping both local and international economies.
           </p>
 
           <p className="mt-4 text-muted-foreground">
@@ -65,8 +65,8 @@ const About = () => {
 
           <p className="mt-3 text-muted-foreground">
             Expect deep dives on investing, practical budgeting tactics,
-            side hustle frameworks, and the money mindset shifts that
-            unlock consistent progress.
+            side hustle frameworks, and the money mindset shifts that unlock
+            consistent progress.
           </p>
         </article>
       </section>
@@ -75,4 +75,5 @@ const About = () => {
 };
 
 export default About;
+
 
