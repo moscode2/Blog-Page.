@@ -26,9 +26,10 @@ const About = () => {
         <article>
           <h1 className="text-4xl font-extrabold">Hi, I’m your guide to Budget briefs and tax policy talks</h1>
           <p className="mt-4 text-muted-foreground">
-          Kenyan-based writer and researcher focused on analyzing recent government legislative changes, Treasury policies, and economic proposals.
-             Our work blends in-depth coverage of Kenya’s fiscal landscape with insights into international affairs, offering readers clear, timely, and well-researched perspectives on issues shaping both local and global. Feel free to reach us for any enquiries
+          Tax Consultants and Researchers with experience in tax and business advisory, focusing on the analysis of government legislative changes, Treasury policies, and emerging economic proposals. Our work provides clear, timely, and well-researched insights into Kenya's fiscal landscape while connecting these developments in the provisions and Tax Laws to global e`conomic trends. We simplify complex policy shifts and offer practical perspectives that support informe decision-making for individaul, businesses, and institutions. Through a blend of technical expertise and analytical research, we deliver commentary that helps individuals and companies undersytand the issues shaping both local and international economies.
           </p>
+  Feel Free to reach us for any enquiries
+        </p>
           <p className="mt-3 text-muted-foreground">
             Expect deep dives on investing, practical budgeting tactics, side hustle frameworks, and the money
             mindset shifts that unlock consistent progress.
