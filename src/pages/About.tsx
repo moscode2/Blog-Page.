@@ -13,7 +13,7 @@ const About = () => {
   return (
     <main>
       <Helmet>
-        <title>About – BUDGET BRIEFS AND TAX POLICY TALKS</title>
+        <title>About – BUDGET BRIEFS AND TAX POLICY TALK</title>
         <meta name="description" content="YOUR SHARP, NO-FLUFF GUIDE TO MAKING SENSE OF MONEY LAWS AND EVERYTHING IN BETWEEN." />
         <link rel="canonical" href={canonical} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
